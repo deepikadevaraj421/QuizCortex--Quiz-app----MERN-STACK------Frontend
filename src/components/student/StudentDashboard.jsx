@@ -1,4 +1,4 @@
-import { useEffect,useState } from "react";
+import React, { useEffect,useState } from "react";
 import { Home, BookOpen, BarChart3, LogOut, Play, Award, Search, Filter, User, Mail, ChevronDown } from 'lucide-react';
 import { getAllQuizzes, submitQuizResult, getStudentResults } from "../../api/quiz";
 export default function StudentDashboard({ studentName, onLogout }) {
