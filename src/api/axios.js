@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://quizcortex-quiz-app-mern-stack-backend-1.onrender.com/api",
+   baseURL: "https://quizcortex-quiz-app-mern-stack-backend-1.onrender.com/api",
 });
 
 // TOKEN attach panna (VERY IMPORTANT)
