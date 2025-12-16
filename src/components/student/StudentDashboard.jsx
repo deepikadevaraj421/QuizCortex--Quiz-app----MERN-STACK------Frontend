@@ -26,8 +26,6 @@ export default function StudentDashboard({ studentName, onLogout }) {
   };
 
 
-
-
   const startQuiz = () => {
     setQuizInProgress(true);
     setCurrentQuestion(0);
