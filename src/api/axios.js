@@ -1,10 +1,9 @@
 import axios from "axios";
 
 const api = axios.create({
-   baseURL: "http://13.232.126.165:5000/api",
+  baseURL: "https://quizcortex-quiz-app-mern-stack-backend-1.onrender.com/api",
 });
 
-// TOKEN attach panna (VERY IMPORTANT)
 api.interceptors.request.use((config) => {
   const token = localStorage.getItem("token");
   if (token) {
@@ -14,3 +13,4 @@ api.interceptors.request.use((config) => {
 });
 
 export default api;
+
